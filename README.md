@@ -1,6 +1,6 @@
 # Hyperf权限管理组件
 
-<font color='#dc3545' size=5>推荐使用Hyperf Casbin:</font>https://github.com/donjan-deng/hyperf-casbin
+<font color='#dc3545' size=5>推荐使用Hyperf Casbin:</font>https://github.com/Ezijing-deng/hyperf-casbin
 
 转换至Casbin示例代码，按自己实际情况修改：
 
@@ -22,7 +22,7 @@
 
 适配Hyperf的[spatie/laravel-permission](https://github.com/spatie/laravel-permission)
 
-使用示例代码：<https://github.com/donjan-deng/la-user-center>
+使用示例代码：<https://github.com/Ezijing-deng/la-user-center>
 
 ## 与spatie/laravel-permission的区别
 
@@ -61,11 +61,11 @@
 ```
 php bin/hyperf.php migrate
 ```
-将Donjan\Permission\Traits\HasRoles添加到你的用户Model
+将Ezijing\Permission\Traits\HasRoles添加到你的用户Model
 
 ```
 ...
-use Donjan\Permission\Traits\HasRoles;
+use Ezijing\Permission\Traits\HasRoles;
 
 class User extends Model {
     
@@ -76,8 +76,8 @@ class User extends Model {
 ## 使用
 
 ```
-use Donjan\Permission\Models\Permission;
-use Donjan\Permission\Models\Role;
+use Ezijing\Permission\Models\Permission;
+use Ezijing\Permission\Models\Role;
 
 //创建一个角色
 $role = Role::create(['name' => '管理员','description'=>'']);
