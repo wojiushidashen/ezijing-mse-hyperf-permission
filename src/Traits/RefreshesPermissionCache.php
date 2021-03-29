@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace Donjan\Permission\Traits;
+namespace Ezijing\Permission\Traits;
 
-use Donjan\Permission\PermissionRegistrar;
+use Ezijing\Permission\PermissionRegistrar;
 use Hyperf\Database\Model\Events\Saved;
 use Hyperf\Database\Model\Events\Deleted;
 use Hyperf\Utils\ApplicationContext;

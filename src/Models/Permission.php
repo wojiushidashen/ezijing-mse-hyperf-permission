@@ -2,20 +2,20 @@
 
 declare(strict_types = 1);
 
-namespace Donjan\Permission\Models;
+namespace Ezijing\Permission\Models;
 
 use Hyperf\Utils\ApplicationContext;
-use Donjan\Permission\Guard;
+use Ezijing\Permission\Guard;
 use Hyperf\Utils\Collection;
-use Donjan\Permission\Traits\HasRoles;
+use Ezijing\Permission\Traits\HasRoles;
 use Hyperf\DbConnection\Model\Model;
-use Donjan\Permission\PermissionRegistrar;
-use Donjan\Permission\Traits\RefreshesPermissionCache;
+use Ezijing\Permission\PermissionRegistrar;
+use Ezijing\Permission\Traits\RefreshesPermissionCache;
 use Hyperf\Database\Model\Relations\MorphToMany;
-use Donjan\Permission\Exceptions\PermissionDoesNotExist;
+use Ezijing\Permission\Exceptions\PermissionDoesNotExist;
 use Hyperf\Database\Model\Relations\BelongsToMany;
-use Donjan\Permission\Exceptions\PermissionAlreadyExists;
-use Donjan\Permission\Contracts\Permission as PermissionContract;
+use Ezijing\Permission\Exceptions\PermissionAlreadyExists;
+use Ezijing\Permission\Contracts\Permission as PermissionContract;
 
 class Permission extends Model implements PermissionContract
 {

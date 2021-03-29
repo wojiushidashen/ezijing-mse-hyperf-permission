@@ -1,6 +1,6 @@
 <?php
 
-namespace Donjan\Permission;
+namespace Ezijing\Permission;
 
 use Hyperf\Utils\Collection;
 

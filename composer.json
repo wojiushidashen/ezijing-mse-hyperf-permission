@@ -10,7 +10,7 @@
         "rbac",
         "security"
     ],
-    "homepage": "https://github.com/donjan-deng/hyperf-permission",
+    "homepage": "https://github.com/wojiushidashen/ezijing-mse-hyperf-permission.git",
     "license": "MIT",
     "authors": [
         {
@@ -32,7 +32,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Donjan\\Permission\\": "src"
+            "Ezijing\\Permission\\": "src"
         },
         "files": [
             "src/helpers.php"
@@ -40,12 +40,12 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Donjan\\Permission\\Test\\": "tests"
+            "Ezijing\\Permission\\Test\\": "tests"
         }
     },
     "extra": {
         "hyperf": {
-            "config": "Donjan\\Permission\\ConfigProvider"
+            "config": "Ezijing\\Permission\\ConfigProvider"
         }
     },
     "scripts": {

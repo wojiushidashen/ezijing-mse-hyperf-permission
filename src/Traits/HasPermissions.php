@@ -2,19 +2,19 @@
 
 declare(strict_types = 1);
 
-namespace Donjan\Permission\Traits;
+namespace Ezijing\Permission\Traits;
 
 use Hyperf\Utils\ApplicationContext;
 use Hyperf\Utils\Collection;
-use Donjan\Permission\Guard;
+use Ezijing\Permission\Guard;
 use Hyperf\Database\Model\Builder;
-use Donjan\Permission\PermissionRegistrar;
-use Donjan\Permission\Contracts\Permission;
-use Donjan\Permission\Exceptions\GuardDoesNotMatch;
+use Ezijing\Permission\PermissionRegistrar;
+use Ezijing\Permission\Contracts\Permission;
+use Ezijing\Permission\Exceptions\GuardDoesNotMatch;
 use Hyperf\Database\Model\Relations\MorphToMany;
-use Donjan\Permission\Exceptions\PermissionDoesNotExist;
+use Ezijing\Permission\Exceptions\PermissionDoesNotExist;
 use Hyperf\Database\Model\Events\Deleting;
-use Donjan\Permission\Models\Permission as ModelPermission;
+use Ezijing\Permission\Models\Permission as ModelPermission;
 
 trait HasPermissions
 {

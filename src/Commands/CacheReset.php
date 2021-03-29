@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace Donjan\Permission\Commands;
+namespace Ezijing\Permission\Commands;
 
-use Donjan\Permission\PermissionRegistrar;
+use Ezijing\Permission\PermissionRegistrar;
 use Hyperf\Command\Annotation\Command;
 use Hyperf\Command\Command as HyperfCommand;
 use Hyperf\Utils\ApplicationContext;

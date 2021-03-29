@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Donjan\Permission\Exceptions;
+namespace Ezijing\Permission\Exceptions;
 
 use InvalidArgumentException;
 use Hyperf\Utils\Collection;

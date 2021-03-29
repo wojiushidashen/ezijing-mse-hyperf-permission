@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Donjan\Permission\Contracts;
+namespace Ezijing\Permission\Contracts;
 
 use Hyperf\Database\Model\Relations\BelongsToMany;
 

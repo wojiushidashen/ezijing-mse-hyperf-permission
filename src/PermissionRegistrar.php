@@ -1,10 +1,10 @@
 <?php
 
-namespace Donjan\Permission;
+namespace Ezijing\Permission;
 
 use Hyperf\Utils\Collection;
-use Donjan\Permission\Contracts\Role;
-use Donjan\Permission\Contracts\Permission;
+use Ezijing\Permission\Contracts\Role;
+use Ezijing\Permission\Contracts\Permission;
 use Psr\Container\ContainerInterface;
 use Psr\SimpleCache\CacheInterface;
 
@@ -107,7 +107,7 @@ class PermissionRegistrar {
     /**
      * Get an instance of the permission class.
      *
-     * @return \Donjan\Permission\Contracts\Permission
+     * @return \Ezijing\Permission\Contracts\Permission
      */
     public function getPermissionClass(): Permission {
         return $this->container->get($this->permissionClass);
@@ -122,7 +122,7 @@ class PermissionRegistrar {
     /**
      * Get an instance of the role class.
      *
-     * @return \Donjan\Permission\Contracts\Role
+     * @return \Ezijing\Permission\Contracts\Role
      */
     public function getRoleClass(): Role {
         return $this->container->get($this->roleClass);

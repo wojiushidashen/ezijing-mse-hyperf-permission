@@ -48,11 +48,11 @@
 ## 安装
 
  ```
-  composer require donjan-deng/hyperf-permission
+  composer require ezijing-mse-hyperf/permission
  ```
 发布配置
 ```
- php bin/hyperf.php vendor:publish donjan-deng/hyperf-permission
+ php bin/hyperf.php vendor:publish ezijing-mse-hyperf/permission
 ```
 修改配置文件config/autoload/permission.php
 

@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace Donjan\Permission;
+namespace Ezijing\Permission;
 
 use Hyperf\Utils\Collection;
 use Hyperf\Utils\Filesystem\Filesystem;
-use Donjan\Permission\Commands\CacheReset;
+use Ezijing\Permission\Commands\CacheReset;
 
 class ConfigProvider
 {

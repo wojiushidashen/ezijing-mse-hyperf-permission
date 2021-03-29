@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-namespace Donjan\Permission\Traits;
+namespace Ezijing\Permission\Traits;
 
 use Hyperf\Utils\ApplicationContext;
 use Hyperf\Utils\Collection;
-use Donjan\Permission\Contracts\Role;
+use Ezijing\Permission\Contracts\Role;
 use Hyperf\Database\Model\Builder;
-use Donjan\Permission\PermissionRegistrar;
+use Ezijing\Permission\PermissionRegistrar;
 use Hyperf\Database\Model\Relations\MorphToMany;
 use Hyperf\Database\Model\Events\Deleting;
 

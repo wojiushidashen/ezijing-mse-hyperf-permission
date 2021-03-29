@@ -2,16 +2,16 @@
 
 declare(strict_types = 1);
 
-namespace Donjan\Permission\Models;
+namespace Ezijing\Permission\Models;
 
-use Donjan\Permission\Guard;
+use Ezijing\Permission\Guard;
 use Hyperf\DbConnection\Model\Model;
-use Donjan\Permission\Traits\HasPermissions;
-use Donjan\Permission\Exceptions\RoleDoesNotExist;
-use Donjan\Permission\Exceptions\GuardDoesNotMatch;
-use Donjan\Permission\Exceptions\RoleAlreadyExists;
-use Donjan\Permission\Contracts\Role as RoleContract;
-use Donjan\Permission\Traits\RefreshesPermissionCache;
+use Ezijing\Permission\Traits\HasPermissions;
+use Ezijing\Permission\Exceptions\RoleDoesNotExist;
+use Ezijing\Permission\Exceptions\GuardDoesNotMatch;
+use Ezijing\Permission\Exceptions\RoleAlreadyExists;
+use Ezijing\Permission\Contracts\Role as RoleContract;
+use Ezijing\Permission\Traits\RefreshesPermissionCache;
 use Hyperf\Database\Model\Relations\MorphToMany;
 use Hyperf\Database\Model\Relations\BelongsToMany;
 
