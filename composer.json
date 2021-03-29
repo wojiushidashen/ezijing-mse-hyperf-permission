@@ -1,8 +1,7 @@
 {
-    "name": "donjan-deng/hyperf-permission",
+    "name": "ezijing-mse-hyperf/permission",
     "description": "hyperf权限管理组件",
     "keywords": [
-        "donjan",
         "hyperf",
         "permission",
         "permissions",
@@ -15,28 +14,21 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Donjan",
-            "homepage": "https://github.com/donjan-deng",
-            "role": "Developer"
-        },
-        {
-            "name": "Freek Van der Herten",
-            "email": "freek@spatie.be",
-            "homepage": "https://spatie.be",
+            "name": "YiZheng Wang",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^7.2",
         "ext-swoole": ">=4.5",
-        "hyperf/database": "~2.0",
-        "hyperf/db-connection": "~2.0",
-        "hyperf/cache": "~2.0",
-        "hyperf/utils": "~2.0",
-        "hyperf/validation": "~2.0"
+        "hyperf/database": "~2.1",
+        "hyperf/db-connection": "~2.1",
+        "hyperf/cache": "~2.1",
+        "hyperf/utils": "~2.1",
+        "hyperf/validation": "~2.1"
     },
     "require-dev": {
-        "hyperf/testing": "~2.0"
+        "hyperf/testing": "~2.1"
     },
     "autoload": {
         "psr-4": {
